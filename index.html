@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Candles Engineering Co. Ltd</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <svg width="220" height="50" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="5" width="40" height="40" rx="10" fill="url(#orangeGrad)"/>
+          <path d="M20 12 C16 18 14 22 16 28 C18 34 22 36 20 38 C24 34 28 28 26 22 C24 16 22 14 20 12Z" fill="white"/>
+          <text x="52" y="24" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="white">GREEN CANDLES</text>
+          <text x="52" y="42" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="url(#goldGrad)">ENGINEERING CO. LTD</text>
+          <defs>
+            <linearGradient id="orangeGrad" x1="0" y1="0" x2="40" y2="40">
+              <stop offset="0%" stop-color="#f97316"/>
+              <stop offset="100%" stop-color="#ea580c"/>
+            </linearGradient>
+            <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#fbbf24"/>
+              <stop offset="100%" stop-color="#f59e0b"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-btn" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1600')">
+        <div class="slide-content">
+          <h1>Leading Electrical & Renewable<br>Energy Solutions</h1>
+          <p>Powering progress with reliable engineering and sustainable energy systems.</p>
+          <div class="hero-buttons">
+            <a href="services.html" class="btn btn-primary">Our Solutions</a>
+            <a href="contact.html" class="btn btn-outline">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600')">
+        <div class="slide-content">
+          <h1>Industrial Systems & Automation</h1>
+          <p>Smart solutions that increase efficiency and reduce operational costs.</p>
+          <div class="hero-buttons">
+            <a href="services.html" class="btn btn-primary">Explore Services</a>
+            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1600')">
+        <div class="slide-content">
+          <h1>Green Energy for a Better Future</h1>
+          <p>Solar, hybrid and sustainable power solutions tailored for your needs.</p>
+          <div class="hero-buttons">
+            <a href="services.html" class="btn btn-primary">View Solutions</a>
+            <a href="contact.html" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+    <div class="slider-dots"></div>
+  </section>
+
+  <!-- Our Story -->
+  <section class="story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-text">
+          <h2>Our Story</h2>
+          <div class="underline left"></div>
+          <h3>Building a greener, more reliable future</h3>
+          <p>Green Candles Engineering Co. Ltd is a professional engineering company specializing in electrical engineering, renewable energy, industrial systems, construction and manufacturing solutions. We combine technical excellence with a strong commitment to sustainability.</p>
+          <a href="about.html" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="story-image">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800" alt="Engineering team">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Choose Us?</h2>
+        <div class="underline"></div>
+        <p>A single stop for all your engineering & electrification needs</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><i class="fas fa-cogs"></i><h3>Engineering Expertise</h3><p>Deep technical knowledge in electrical, industrial and renewable systems.</p></div>
+        <div class="why-card"><i class="fas fa-project-diagram"></i><h3>Project Management</h3><p>Timely delivery with strong project control and quality assurance.</p></div>
+        <div class="why-card"><i class="fas fa-leaf"></i><h3>Green Solutions</h3><p>Sustainable and energy-efficient designs that reduce long-term costs.</p></div>
+        <div class="why-card"><i class="fas fa-hard-hat"></i><h3>Safety First</h3><p>Stringent safety policies on every site and installation.</p></div>
+        <div class="why-card"><i class="fas fa-users"></i><h3>Customer Centric</h3><p>We listen, understand and deliver solutions that truly fit your needs.</p></div>
+        <div class="why-card"><i class="fas fa-tools"></i><h3>End-to-End Service</h3><p>Design, supply, installation, testing, commissioning and support.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counters -->
+  <section class="counters">
+    <div class="container">
+      <div class="counter-grid">
+        <div class="counter-item"><h3 class="counter" data-target="12">0</h3><p>Years Experience</p></div>
+        <div class="counter-item"><h3 class="counter" data-target="150">0</h3><p>Projects Completed</p></div>
+        <div class="counter-item"><h3 class="counter" data-target="98">0</h3><p>% Client Satisfaction</p></div>
+        <div class="counter-item"><h3 class="counter" data-target="40">0</h3><p>Industrial Clients</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="partners">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Trusted Partners & Clients</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="partners-grid">
+        <div class="partner-logo">Partner 1</div>
+        <div class="partner-logo">Partner 2</div>
+        <div class="partner-logo">Client A</div>
+        <div class="partner-logo">Client B</div>
+        <div class="partner-logo">Partner 3</div>
+        <div class="partner-logo">Client C</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Preview -->
+  <section class="projects-preview">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600" alt="Solar">
+          <div class="project-info"><span>Renewable Energy</span><h3>Industrial Solar Installation</h3></div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600" alt="Electrical">
+          <div class="project-info"><span>Electrical</span><h3>Factory Power Distribution</h3></div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112c4e5390?w=600" alt="Industrial">
+          <div class="project-info"><span>Industrial Systems</span><h3>Automation & Control Upgrade</h3></div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:40px">
+        <a href="projects.html" class="btn btn-primary">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Clients Say</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card"><p>“Professional team, excellent delivery and strong after-sales support.”</p><h4>— Project Manager</h4></div>
+        <div class="testimonial-card"><p>“They completed our electrical and solar works on time with outstanding quality.”</p><h4>— Operations Director</h4></div>
+        <div class="testimonial-card"><p>“Reliable partner for complex engineering projects.”</p><h4>— Facilities Manager</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to power your next project?</h2>
+      <p>Let’s discuss how we can deliver efficient and sustainable engineering solutions.</p>
+      <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <svg width="200" height="45" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="footer-logo">
+          <rect x="0" y="5" width="40" height="40" rx="10" fill="url(#orangeGrad2)"/>
+          <path d="M20 12 C16 18 14 22 16 28 C18 34 22 36 20 38 C24 34 28 28 26 22 C24 16 22 14 20 12Z" fill="white"/>
+          <text x="52" y="24" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="white">GREEN CANDLES</text>
+          <text x="52" y="42" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="url(#goldGrad2)">ENGINEERING CO. LTD</text>
+          <defs>
+            <linearGradient id="orangeGrad2" x1="0" y1="0" x2="40" y2="40">
+              <stop offset="0%" stop-color="#f97316"/>
+              <stop offset="100%" stop-color="#ea580c"/>
+            </linearGradient>
+            <linearGradient id="goldGrad2" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#fbbf24"/>
+              <stop offset="100%" stop-color="#f59e0b"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <p>Engineering excellence with a green vision.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-phone"></i> <a href="tel:+256779525875">+256 779 525 875</a> (Calls & WhatsApp)</p>
+        <p><i class="fas fa-phone"></i> <a href="tel:+256757053424">+256 757 053 424</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/256779525875" target="_blank">Chat on WhatsApp</a></p>
+        <p><i class="fas fa-envelope"></i> info@greencandleseng.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Green Candles Engineering Co. Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/256779525875" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
